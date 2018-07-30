@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="#" onclick="goPage(this)" target="_blank">네이버</a>
+	<a href="#" onclick="goPage(this)" target="_blank">다음</a>
+	<a href="#test">가자!</a>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>
+<p><br>책갈피
+	<script>
+	var urlMap = {
+			'네이버' : 'http://naver.com',
+			'다음' : 'http://daum.net'
+			};
+		   function goPage(aObj) {
+			aObj.href = urlMap[aObj.innerHTML];
+		}
+	</script>
+</body>
+</html>
